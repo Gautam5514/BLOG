@@ -27,7 +27,7 @@ export default function PaypalButton({ setIsPaymentDialog }) {
                         purchase_units: [
                             {
                                 amount: {
-                                    value: "1500.00",
+                                    value: "500.00",
                                 },
                                 description: "Premium Blog Description",
                             },
