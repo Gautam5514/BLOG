@@ -38,7 +38,7 @@ export default async function RegisterPage() {
                     <h2 className="text-4xl text-black font-medium">
                         Join us to explore the best blog experience
                     </h2>
-                    <p className="text-right text-lg text-black font-bold">- Sangam</p>
+                    <p className="text-right text-lg text-black font-bold">- Gautam</p>
                 </div>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <img
