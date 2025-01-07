@@ -114,9 +114,9 @@ export default function Header({ user }) {
                                 className="text-2xl cursor-pointer font-bold font-serif tracking-tighter"
                             >
                                 <span className="bg-black text-white px-2 py-1 rounded-full">
-                                    M
+                                    C
                                 </span>
-                                <span className="ml-1">Medium</span>
+                                <span className="ml-1">CIT Talk</span>
                             </h1>
                         </div>
                         <div className="flex items-center space-x-4">
@@ -152,7 +152,7 @@ export default function Header({ user }) {
                                 <DropdownMenuTrigger asChild>
                                     <Avatar className="h-8 w-8 cursor-pointer">
                                         <AvatarImage src="https://github.com/shadcn.png" />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                        <AvatarFallback>GP</AvatarFallback>
                                     </Avatar>
                                 </DropdownMenuTrigger>
                                 <DropdownMenuContent align="end">
@@ -190,9 +190,7 @@ export default function Header({ user }) {
                                         router.push(`/blog/${searchResultItem._id}`);
                                     }}
                                     key={searchResultItem._id}
-                                    className={`cursor-pointer
-                     flex gap-6
-                   bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden`}
+                                    className={`cursor-pointer flex gap-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden`}
                                 >
                                     <div className={`w-1/3 h-full relative`}>
                                         <img
